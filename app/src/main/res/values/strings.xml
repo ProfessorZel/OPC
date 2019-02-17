@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">ПриказПро:Личный состав</string>
+    <string name="inputmessege">Cообщение.</string>
+    <string name="send">Отправить!</string>
+    <string name="alert">Введенные вами реквизиты доступа неверны!</string>
+    <string name="sgw">Ошибка…</string>
+    <string name="emptyreg">Необходимо заполнить все поля!</string>
+    <string name="yourname">Имя и Фамилия</string>
+    <string name="yoursirname">Номер телефона</string>
+    <string name="dminpass">Код активации:</string>
+    <string name="butto">Регистрация</string>
+
+    <string name="yourmsg">Ваши сообщения.</string>
+    <string name="inputpass">Введите пароль:</string>
+    <string name="messeges">Сообщения.</string>
+
+    <string name="timetable">Расписание.</string>
+    <string name="connecttimetable">Подключитесь к интренету чтобы получить рассписание.</string>
+    <string name="getlist">Получить список.</string>
+    <string name="emtytimetable">Нажмитие обновить для получения рассписания.</string>
+    <string name="otdelenie">Отделение:</string>
+    <string name="go">ОБНОВИТЬ</string>
+    <string name="empty">Необходимо ввести пароль!</string>
+    <string name="age">Возраст:</string>
+    <string name="exit_from_account">Выйти из аккаунта</string>
+    <string-array name="ps">
+        <item name="0">Age</item>
+        <item name="0">6</item>
+        <item name="0">7</item>
+        <item name="0">8</item>
+        <item name="0">9</item>
+        <item name="0">10</item>
+        <item name="0">11</item>
+        <item name="0">12</item>
+        <item name="0">13</item>
+        <item name="0">14</item>
+        <item name="0">15</item>
+        <item name="0">16</item>
+        <item name="0">17</item>
+        <item name="0">18</item>
+    </string-array>
+</resources>
+
+
