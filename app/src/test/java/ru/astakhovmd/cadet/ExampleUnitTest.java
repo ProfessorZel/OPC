@@ -1,4 +1,4 @@
-package commander.professor.opc;
+package ru.astakhovmd.cadet;
 
 import org.junit.Test;
 

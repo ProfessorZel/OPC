@@ -4,19 +4,18 @@ android {
     signingConfigs {
         config {
             keyAlias 'key0'
-            storeFile file('C:/Users/rabot/Desktop/Program Files/mainkey.jks')
+            storeFile file('D:/Program Files/mainkey.jks')
             storePassword '8154167238'
             keyPassword 'Mhtst36763131048'
         }
     }
-    compileSdkVersion 27
-    buildToolsVersion '27.0.3'
+    compileSdkVersion 30
     defaultConfig {
-        applicationId "commander.professor.opc"
+        applicationId 'ru.astakhovmd.cadet'
         minSdkVersion 19
-        targetSdkVersion 27
-        versionCode 9
-        versionName '9.0-courses'
+        targetSdkVersion 30
+        versionCode 10
+        versionName '10.0 NewYear'
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
@@ -28,14 +27,18 @@ android {
     }
     productFlavors {
     }
+    buildToolsVersion '30.0.2'
 }
 
 dependencies {
-    compile fileTree(include: ['*.jar'], dir: 'libs')
-    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'androidx.localbroadcastmanager:localbroadcastmanager:1.0.0'
+    androidTestImplementation('com.android.support.test.espresso:espresso-core:3.0.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-    compile 'com.android.support:appcompat-v7:27.1.1'
-    compile 'com.android.support.constraint:constraint-layout:1.1.2'
-    testCompile 'junit:junit:4.12'
+
+
+    implementation 'com.android.support.constraint:constraint-layout:2.0.4'
+    androidTestImplementation 'junit:junit:4.13.1'
 }

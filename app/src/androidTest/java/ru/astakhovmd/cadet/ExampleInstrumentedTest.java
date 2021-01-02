@@ -1,4 +1,4 @@
-package commander.professor.opc;
+package ru.astakhovmd.cadet;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("commander.professor.opc", appContext.getPackageName());
+        assertEquals("ru.astakhovmd.cadet", appContext.getPackageName());
     }
 }
